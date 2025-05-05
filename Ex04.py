@@ -1,0 +1,7 @@
+entrada = input('Digite alguma coisa: ')
+print(f"- É texto? {'Sim' if isinstance(entrada, str) else 'Não'}")
+print(f"- Tamanho do texto: {len(entrada)}")
+print(f"- Está em maiúsculas? {'Sim' if entrada.isupper() else 'Não'}")
+print(f"- Está em minúsculas? {'Sim' if entrada.islower() else 'Não'}")
+print(f"- É alfanumérico? {'Sim' if entrada.isalnum() else 'Não'}")
+print(f"- É apenas espaço? {'Sim' if entrada.isspace() else 'Não'}")
